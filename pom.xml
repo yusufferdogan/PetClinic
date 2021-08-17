@@ -31,7 +31,22 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <configuration>
+                    <goal>install</goal>
+                        <moduleExcludes>
+                            <moduleExclude>pom.xml</moduleExclude>
+                        </moduleExcludes>
+                </configuration>
+                <version>3.8.2</version>
+            </plugin>
         </plugins>
     </build>
+
+    <scm>
+        <developerConnection>scm:git:git@github.com:yusufferdogan/PetClinic.git</developerConnection>
+    </scm>
 
 </project>
