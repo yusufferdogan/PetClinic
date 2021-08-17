@@ -15,7 +15,7 @@
     </parent>
     <groupId>com.YusufErdogan</groupId>
     <artifactId>Pet-Clinic</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>petclinic</name>
     <description>petclinic</description>
     <properties>
@@ -45,8 +45,8 @@
     </build>
 
     <scm>
-        <connection>scm:git:ssh://git@github.com:yusufferdogan/PetClinic.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:yusufferdogan/PetClinic.git</developerConnection>
+        <connection>scm:git:https://github.com/yusufferdogan/PetClinic.git</connection>
+        <developerConnection>scm:git:https://github.com/yusufferdogan/PetClinic.git</developerConnection>
         <url>https://github.com/yusufferdogan/PetClinic/tree/master</url>
       <tag>Pet-Clinic-1.0.1</tag>
   </scm>
