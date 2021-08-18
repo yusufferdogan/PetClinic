@@ -45,9 +45,7 @@
     </build>
 
     <scm>
-        <connection>scm:git:git@github.com:yusufferdogan/PetClinic.git</connection>
         <developerConnection>scm:git:git@github.com:yusufferdogan/PetClinic.git</developerConnection>
-        <url>https://github.com/yusufferdogan/PetClinic/tree/master</url>
       <tag>Pet-Clinic-1.2.0</tag>
   </scm>
 
