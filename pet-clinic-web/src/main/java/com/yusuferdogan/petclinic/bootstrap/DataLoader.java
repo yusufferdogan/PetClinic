@@ -1,5 +1,4 @@
 package com.yusuferdogan.petclinic.bootstrap;
-
 import com.yusuferdogan.petclinic.model.Owner;
 import com.yusuferdogan.petclinic.model.Vet;
 import com.yusuferdogan.petclinic.services.OwnerService;
@@ -24,14 +23,12 @@ public class DataLoader implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         Owner owner1 = new Owner();
-        owner1.setId(1L);
         owner1.setFirstName("Micheal");
         owner1.setLastName("Weston");
 
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
-        owner2.setId(2L);
         owner2.setFirstName("fiona");
         owner2.setLastName("gallantry");
 
@@ -40,14 +37,12 @@ public class DataLoader implements CommandLineRunner {
         System.out.println("Loaded Owners");
 
         Vet vet1 = new Vet();
-        vet1.setId(1L);
         vet1.setFirstName("vet1-first");
         vet1.setLastName("vet1-last");
 
         vetService.save(vet1);
 
         Vet vet2 = new Vet();
-        vet2.setId(2L);
         vet2.setFirstName("vet2-first");
         vet2.setLastName("vet2-last");
 
